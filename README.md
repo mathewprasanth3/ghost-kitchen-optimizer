@@ -1,53 +1,42 @@
 # 🍽️ Ghost Kitchen Demand Optimizer
+AI/ML system for demand prediction across location–cuisine combinations, 
+combining clustering, XGBoost forecasting, and SHAP explainability.
 
-AI/ML system for demand prediction across location–cuisine combinations, combining clustering, XGBoost forecasting, and SHAP explainability.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://ghostkitchendashboard.streamlit.app)
 
 ---
 
-## 🚀 Live Demo  
-https://ghostkitchendashboard.streamlit.app
+## 📊 Results
+| Metric | Score |
+|--------|-------|
+| Accuracy | 78.2% |
+| Recall (High-Demand) | 77% |
+| Class Imbalance Handled | 2.35:1 via scale_pos_weight |
+| Location-Cuisine Combinations | 5,000+ |
 
 ---
 
 ## 🧠 Overview
-
-Predicts demand across location–cuisine combinations to support data-driven decisions for cloud kitchen expansion.
+Predicts demand across location–cuisine combinations to support 
+data-driven decisions for cloud kitchen expansion. Uses KMeans to 
+segment markets and XGBoost to classify high vs low demand locations, 
+with SHAP for business-interpretable explanations.
 
 ---
 
 ## ⚙️ Features
-
-- **Market Segmentation (KMeans)**  
-  Clusters locations based on demand patterns  
-
-- **Demand Prediction (XGBoost)**  
-  Forecasts demand for location–cuisine combinations  
-
-- **Explainability (SHAP)**  
-  Interprets feature importance and model behavior  
-
-- **Interactive Dashboard (Streamlit)**  
-  Real-time predictions and visualization  
+- **Market Segmentation (KMeans)** — clusters locations by demand patterns
+- **Demand Prediction (XGBoost)** — 78.2% accuracy with class balancing
+- **Explainability (SHAP)** — feature importance for business decisions
+- **Interactive Dashboard (Streamlit)** — real-time predictions
 
 ---
 
 ## 🏗️ Tech Stack
-
-Python, XGBoost, Scikit-learn, SHAP, Pandas, NumPy, Streamlit  
-
----
-
-## 📊 ML Pipeline
-
-- Data preprocessing and feature engineering  
-- KMeans clustering for segmentation  
-- XGBoost regression for demand prediction  
-- SHAP-based explainability  
+Python, XGBoost, Scikit-learn, SHAP, Pandas, NumPy, Streamlit
 
 ---
 
 ## 👤 Author
-
-Mathew Prasanth  
-AI/ML Engineer  
-https://www.linkedin.com/in/mathewprasanth/
+Mathew Prasanth, P.E. | AI/ML Engineer
+[LinkedIn](https://www.linkedin.com/in/mathewprasanth/)
